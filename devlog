@@ -1,0 +1,26 @@
+Monday 17th February 2020
+-------------------------
+
+1.  Raison d'Etra.
+
+    Experiment with Django / Vue integration.
+
+    Main source is https://johnfraney.ca/posts/2019/05/14/integrate-django-vuejs/.
+
+2.  Created git@github.com:ianr37/VueTest.git.
+
+3.  Created Django part of project.
+
+    (ian@t34)
+    cd git/ian/vuetest
+    django-admin startproject vuetest
+    cd vuetest
+    python3 manage.py migrate
+    python3 manage.py runserver
+    git mv ../.gitignore .
+      ! move to root of django tree
+    vi ../.gitignore
+      ! ignore *.swp files
+    git add ../devlog ../.gitignore manage.py vuetest/
+    git commit -a
+
