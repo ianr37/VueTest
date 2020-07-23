@@ -24,3 +24,10 @@ Monday 17th February 2020
     git add ../devlog ../.gitignore manage.py vuetest/
     git commit -a
 
+Thursday 23rd July
+------------------
+
+1.  
+
+    Further research indicates that mixing Vue and Django, while it has its place, is not what we need
+    for Marquee so I won't bother to go down that route. I'll repurpose this repository as an SPA.
